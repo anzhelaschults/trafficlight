@@ -1,0 +1,51 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    /*background-color: cornflowerblue;*/
+    background-image: url("https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1606039142000/photosp/ac0813e8-85dd-4e14-a0ce-ae7455370d58/stock-photo-city-architecture-building-traffic-grid-line-urban-background-isometric-ac0813e8-85dd-4e14-a0ce-ae7455370d58.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #888887;
+    border-radius: 35px;
+    width: 125px;
+    height: 391px;
+    padding: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.circle {
+    background-color: #737373;
+    border-radius: 50%;
+    position:relative;
+    height: 90px;
+    width: 90px
+}
+
+.circle.red {
+    background-color: red;
+    box-shadow: 0 0 40px red;
+}
+
+.circle.orange {
+    background-color: orange;
+    box-shadow: 0 0 40px orange;
+}
+
+.circle.green {
+    background-color: green;
+    box-shadow: 0 0 40px green;
+}
